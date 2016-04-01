@@ -1,0 +1,66 @@
+.recipe-details {
+  margin-top: 60px;
+
+  .large-pic-left {
+    position: fixed;
+    min-height: calc(100vh - 60px);
+    background: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .recipe-instructions {
+    margin-top: 25px;
+    padding-left: 85px;
+    padding-right: 85px;
+    float: right;
+
+    h1 {
+      text-transform: uppercase;
+    }
+
+    h2 {
+      @include font-light;
+    }
+
+    .ma-print {
+      margin-left: 25px;
+      cursor: pointer;
+    }
+
+    .description {
+      margin-top: 50px;
+    }
+
+    .ingredients {
+      margin-top: 35px;
+
+      ul {
+        padding-left: 20px;
+
+        li {
+          font-size: 95%;
+
+          &:not(:last-of-type) {
+            padding-bottom: 2px;
+          }
+        }
+      }
+    }
+
+    .how-to {
+      margin-top: 35px;
+      margin-bottom: 30px;
+
+      p {
+        &:first-letter {
+          font-size: 2rem;
+        }
+
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

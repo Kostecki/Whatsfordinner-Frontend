@@ -1,0 +1,69 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(244, 244, 244);
+  font-size: 14px;
+}
+
+a, a:focus {
+  text-decoration: none;
+  color: white;
+
+  &:hover {
+    opacity: .9;
+    text-decoration: none;
+  }
+}
+
+.fixed {
+  background: white;
+  padding-bottom: 7px;
+  transition: all .5s ease-in;
+  margin-top: -15px;
+
+  .logo, .li, a {
+    color: black;
+  }
+}
+
+.navigation {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  color: white;
+  padding-top: 30px;
+  font-size: 2rem;
+  z-index: 1000;
+  @include font-light;
+
+  transition: all .5s ease-out;
+
+  .logo {
+    font-weight: 600;
+    padding-left: 0;
+  }
+
+  .nav-links {
+    text-align: right;
+    text-transform: uppercase;
+    padding-right: 0;
+
+    ul {
+      list-style: none;
+
+      .active {
+        font-weight: 600;
+      }
+
+      a {
+
+        &:not(:last-of-type) {
+          padding-right: 30px;
+        }
+      }
+
+      li {
+        display: inline-block;
+      }
+    }
+  }
+}

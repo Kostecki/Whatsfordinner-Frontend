@@ -167,12 +167,9 @@
           justify-content: center;
           align-items: center;
           text-transform: uppercase;
-          @include font-light;
           font-size: 2rem;
-
-          a {
-            text-align: center;
-          }
+          cursor: pointer;
+          @include font-light;
 
           .material-icons {
             font-size: 4rem;

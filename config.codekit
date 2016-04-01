@@ -20,7 +20,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/food\/basic-shit.jpg": {
 		"fileType": 16384,
@@ -48,7 +48,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 406378,
+		"initialSize": 412594,
 		"inputAbbreviatedPath": "\/assets\/img\/food\/burger.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/food\/burger.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -165,25 +165,25 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/js\/min\/script-min.js": {
+	"\/assets\/js\/script-min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/js\/min\/script-min.js",
-		"outputAbbreviatedPath": "\/assets\/js\/min\/min\/script-min-min.js",
+		"inputAbbreviatedPath": "\/assets\/js\/script-min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/min\/script-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/assets\/js\/script.js": {
+	"\/assets\/js\/working\/script.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/js\/script.js",
-		"outputAbbreviatedPath": "\/assets\/js\/min\/script-min.js",
+		"inputAbbreviatedPath": "\/assets\/js\/working\/script.js",
+		"outputAbbreviatedPath": "\/assets\/js\/script-min.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},

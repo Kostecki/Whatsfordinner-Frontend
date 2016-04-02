@@ -3,17 +3,13 @@
 $(document).ready(function() {
   var curPage = $("body").attr("data-page");
 
-  if(["detail", "popular"].indexOf(curPage) > -1) { //Should probably get this
-    $('.navigation').addClass('fixed');
-  } else {
+  if(["detail", "popular"].indexOf(curPage) === -1) { //Should probably get this
     $(window).scroll(function () {
       if ($(window).scrollTop() > 100) {
         $('.navigation').addClass('fixed');
-        console.log("adding");
       }
       if ($(window).scrollTop() < 101) {
         $('.navigation').removeClass('fixed');
-        console.log("removing");
       }
     });
   }

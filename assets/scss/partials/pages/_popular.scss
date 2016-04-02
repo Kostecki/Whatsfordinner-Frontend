@@ -1,0 +1,43 @@
+.show-popular {
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  .popular-item {
+    width: 19%;
+    height: 210px; //TODO: Again with this..
+    padding: 0 0 55px 0;
+    margin-top: 15px;
+    background: white;
+    text-align: center;
+    @include flat-card;
+
+    .popular-img {
+      background: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 100%;
+    }
+
+    .popular-info {
+      text-transform: uppercase;
+      padding-top: 5px;
+      color: black;
+
+      .pop-favs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @include font-light;
+
+        .ma {
+          padding-right: 3px;
+          color: red;
+          font-size: 1.8rem;
+        }
+      }
+    }
+  }
+}

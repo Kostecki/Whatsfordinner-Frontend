@@ -1,0 +1,73 @@
+.login-prompt {
+  width: 350px;
+  background: white;
+  color: rgb(155, 155, 155);
+  padding-left: 35px;
+  padding-right: 35px;
+  margin: 100px auto;
+  @include flat-card;
+
+  h1 {
+    padding-top: 20px;
+    @include font-light;
+  }
+
+  h4 {
+    @include font-light;
+  }
+
+  .username {
+    margin-top: 50px;
+  }
+
+  .password {
+    margin-top: 35px;
+  }
+
+  input[type=text] {
+    width: 100%;
+    border: none;
+    padding-top: 10px;
+    border-bottom: 1px solid rgb(238, 238, 238);
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  button {
+    border-radius: 0;
+    background: rgb(155, 155, 155);
+    color: white;
+    padding: 8px 30px;
+    margin: 20px 0 20px 0;
+    text-transform: uppercase;
+    @include font-light;
+
+    &:hover {
+      color: white;
+      opacity: .8;
+    }
+
+    &:focus, &:active {
+      color: white;
+    }
+  }
+
+  a {
+    color: rgb(155, 155, 155);
+  }
+
+  p {
+    padding-bottom: 20px;
+    @include font-light;
+
+    &:hover {
+      opacity: .8;
+    }
+
+    &:focus, &:active {
+      color: rgb(155, 155, 155) !important;
+    }
+  }
+}

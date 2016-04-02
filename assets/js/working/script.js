@@ -37,6 +37,10 @@ $(".ma-print").click(function() {
   alert("Print? What are you, are dinosaur?");
 });
 
+$("#forgot").click(function() {
+  alert("You aren't the brightest,huh?");
+});
+
 //"Favourited"
 $(".favourite").click(function() {
   if ($(this).find("p").html() === "Favourite") {

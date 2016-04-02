@@ -87,7 +87,7 @@
     .these-are-recipies {
       .recipe-list {
         .recipe {
-          box-shadow: 2px 2px 4px 0 rgba(0,0,0,.5);
+          @include flat-card;
           height: 160px;
           background: white;
           padding: 0;

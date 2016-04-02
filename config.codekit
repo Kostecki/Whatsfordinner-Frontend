@@ -132,6 +132,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/food\/salmon.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.36545e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/food\/salmon.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/food\/salmon.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/food\/steak.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -161,6 +172,28 @@
 		"initialSize": 1.89888e+06,
 		"inputAbbreviatedPath": "\/assets\/img\/food\/toast.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/food\/toast.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/food\/vietnamese.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.43576e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/food\/vietnamese.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/food\/vietnamese.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/food\/waffle.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 279499,
+		"inputAbbreviatedPath": "\/assets\/img\/food\/waffle.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/food\/waffle.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -260,6 +293,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/scss\/partials\/pages\/_index.scss",
 		"outputAbbreviatedPath": "\/assets\/scss\/partials\/css\/_index.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/scss\/partials\/pages\/_popular.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/scss\/partials\/pages\/_popular.scss",
+		"outputAbbreviatedPath": "\/assets\/scss\/partials\/css\/_popular.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

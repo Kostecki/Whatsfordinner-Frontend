@@ -1,10 +1,12 @@
 /*jslint vars: true, plusplus: true, devel: true, nomen: true, indent: 4, maxerr: 50 */
 
 $(document).ready(function() {
-  if ($("body").attr("data-page") === "detail") {
+  if ($("body").attr("data-page") === "detail" || "popular") {
     $('.navigation').addClass('fixed');
+    console.log($("body").attr("data-page"));
   } else {
     $(window).scroll(function () {
+      console.log("No so Special");
       if ($(window).scrollTop() > 100) {
         $('.navigation').addClass('fixed');
       }
@@ -16,9 +18,9 @@ $(document).ready(function() {
 });
 
 $(".extra-day").click(function() {
-  var img_array = ["chorizo-squash.jpg", "bolognese.jpg", "burger.jpg", "chicken.jpg", "hotdog.jpg", "asian-thing.jpg", "paella.jpg", "panini.jpg", "pie.jpg", "pizza.jpg", "steak.jpg", "stew.jpg", "toast.jpg"];
+  var img_array = ["chorizo-squash.jpg", "bolognese.jpg", "burger.jpg", "chicken.jpg", "hotdog.jpg", "asian-thing.jpg", "paella.jpg", "panini.jpg", "pie.jpg", "pizza.jpg", "steak.jpg", "stew.jpg", "toast.jpg", "salmon.jpg", "vietnamese.jpg", "waffle.jpg"];
 
-  var name_array = ["Chorizo and Squash", "Pasta Alla Bolognese", "Fancy Gourmet Burger", "Delicious Fried Chicken", "Total Hipster Hot Dog", "Something Asian Looking", "Genuine Spanish Paella", "Tasty Hot Panini", "Some Kind of Pie", "Awesome Homemade Pizza", "Steak and Veggies", "Filling Meat Stew", "Literally Just Toast"];
+  var name_array = ["Chorizo and Squash", "Pasta Alla Bolognese", "Fancy Gourmet Burger", "Delicious Fried Chicken", "Total Hipster Hot Dog", "Something Asian Looking", "Genuine Spanish Paella", "Tasty Hot Panini", "Some Kind of Pie", "Awesome Homemade Pizza", "Steak and Veggies", "Filling Meat Stew", "Literally Just Toast", "Salmon on Weird Bread", "Vietnamese, maybe?", "Waffles for dinner"];
 
   var rand = Math.floor(Math.random()*img_array.length);
 

@@ -1,17 +1,19 @@
 /*jslint vars: true, plusplus: true, devel: true, nomen: true, indent: 4, maxerr: 50 */
 
 $(document).ready(function() {
-  if ($("body").attr("data-page") === "detail" || "popular") {
+  var curPage = $("body").attr("data-page");
+
+  if(["detail", "popular"].indexOf(curPage) > -1) { //Should probably get this
     $('.navigation').addClass('fixed');
-    console.log($("body").attr("data-page"));
   } else {
     $(window).scroll(function () {
-      console.log("No so Special");
       if ($(window).scrollTop() > 100) {
         $('.navigation').addClass('fixed');
+        console.log("adding");
       }
       if ($(window).scrollTop() < 101) {
         $('.navigation').removeClass('fixed');
+        console.log("removing");
       }
     });
   }
